@@ -1,0 +1,416 @@
+/* most low level resulation like galaxy fold */
+
+@media (min-widht: 279px) and (max-widht: 319px) {
+    .main-menu .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show>.nav-link {
+        font-size: 15px;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+    .main-menu .btn-success {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+    .banner {
+        padding: 20px 0px;
+    }
+    .banner h5 {
+        font-size: 12px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .banner h1 {
+        width: 100%;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        margin: 0px 0px 10px;
+    }
+    .banner p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .banner .btn-change {
+        display: flex;
+        justify-content: center;
+    }
+    .banner .btn-success {
+        font-size: 16px;
+        padding: 6px 20px;
+        margin: 10px 0px 20px 0px;
+    }
+    .feature {
+        padding: 20px 0px;
+    }
+    .feature .inner-feature {
+        margin: 0px 0px 20px;
+    }
+    .courses {
+        padding: 20px 0px;
+    }
+    .courses h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .courses .card {
+        margin: 0px 0px 10px;
+    }
+    .courses .card .card-body h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .courses .card .card-body p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .courses .card .card-body .btn-success {
+        font-size: 14px;
+        padding: 6px 20px;
+    }
+    .testimonial {
+        padding: 20px 0px;
+    }
+    .testimonial h2 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .testimonial img {
+        width: 130px;
+        height: 130px;
+    }
+    .testimonial p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .footer {
+        padding: 0px;
+    }
+    .footer-widget {
+        padding: 10px 0px 20px 0px;
+        text-align: center;
+    }
+    .footer-widget p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin: 20px 0px 15px;
+    }
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* CSS */
+    /* *******************************************
+*****************global css start*******************
+ */
+    .main-menu .btn-success {
+        padding: 6px 15px;
+        font-size: 14px;
+    }
+    .banner {
+        padding: 20px 0px;
+    }
+    .banner h5 {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .banner h1 {
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0px 0px 10px;
+    }
+    .banner p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .banner .btn-change {
+        display: flex;
+        justify-content: center;
+    }
+    .banner .btn-success {
+        font-size: 16px;
+        padding: 6px 20px;
+        margin: 10px 0px 20px 0px;
+    }
+    .feature {
+        padding: 20px 0px;
+    }
+    .feature .inner-feature {
+        margin: 0px 0px 20px;
+    }
+    .courses {
+        padding: 20px 0px;
+    }
+    .courses h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .courses .card {
+        margin: 0px 0px 10px;
+    }
+    .courses .card .card-body h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .courses .card .card-body p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .courses .card .card-body .btn-success {
+        font-size: 14px;
+        padding: 6px 20px;
+    }
+    .testimonial {
+        padding: 20px 0px;
+    }
+    .testimonial h2 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .testimonial img {
+        width: 130px;
+        height: 130px;
+    }
+    .testimonial p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .footer {
+        padding: 0px;
+    }
+    .footer-widget {
+        padding: 10px 0px 20px 0px;
+        text-align: center;
+    }
+    .footer-widget p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin: 20px 0px 15px;
+    }
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* CSS */
+    .main-menu .btn-success {
+        padding: 6px 15px;
+        font-size: 14px;
+    }
+    .banner {
+        padding: 20px 0px;
+    }
+    .banner h5 {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .banner h1 {
+        width: 100%;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        margin: 0px 0px 10px;
+    }
+    .banner p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .banner .btn-change {
+        display: flex;
+        justify-content: center;
+    }
+    .banner .btn-success {
+        font-size: 16px;
+        padding: 6px 20px;
+        margin: 10px 0px 20px 0px;
+    }
+    .feature {
+        padding: 20px 0px;
+    }
+    .feature .inner-feature {
+        margin: 0px 0px 20px;
+    }
+    .courses {
+        padding: 20px 0px;
+    }
+    .courses h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .courses .card {
+        margin: 0px 0px 10px;
+    }
+    .courses .card .card-body h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .courses .card .card-body p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .courses .card .card-body .btn-success {
+        font-size: 14px;
+        padding: 6px 20px;
+    }
+    .testimonial {
+        padding: 20px 0px;
+    }
+    .testimonial h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .testimonial img {
+        width: 130px;
+        height: 130px;
+    }
+    .testimonial p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .footer {
+        padding: 0px;
+    }
+    .footer-widget {
+        padding: 10px 0px 20px 0px;
+        text-align: center;
+    }
+    .footer-widget p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin: 20px 0px 15px;
+    }
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* CSS */
+    .main-menu .btn-success {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    .banner {
+        padding: 20px 0px;
+    }
+    .banner h5 {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .banner h1 {
+        width: 100%;
+        font-size: 35px;
+        line-height: 45px;
+        text-align: center;
+        margin: 0px 0px 10px;
+    }
+    .banner p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .banner .btn-change {
+        display: flex;
+        justify-content: center;
+    }
+    .banner .btn-success {
+        font-size: 16px;
+        padding: 8px 25px;
+        margin: 10px 0px 20px 0px;
+    }
+    .feature {
+        padding: 20px 0px;
+    }
+    .feature .inner-feature {
+        margin: 0px 0px 20px;
+    }
+    .courses {
+        padding: 20px 0px;
+    }
+    .courses h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .courses .card {
+        margin: 0px 0px 10px;
+    }
+    .courses .card .card-body h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .courses .card .card-body p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .courses .card .card-body .btn-success {
+        font-size: 16px;
+        padding: 8px 25px;
+    }
+    .testimonial {
+        padding: 20px 0px;
+    }
+    .testimonial h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .testimonial img {
+        width: 130px;
+        height: 130px;
+    }
+    .testimonial p {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .footer {
+        padding: 0px;
+    }
+    .footer-widget {
+        padding: 10px 0px 20px 0px;
+        text-align: center;
+    }
+    .footer-widget p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin: 20px 0px 15px;
+    }
+    .copyright {
+        width: 100%;
+        text-align: center;
+    }
+}
